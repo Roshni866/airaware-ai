@@ -1,6 +1,6 @@
 # Data-quality report
 
-*Generated 2026-11-24 07:10 UTC by `src/data_pipeline.py`.*
+*Generated 2026-11-24 08:41 UTC by `src/data_pipeline.py`.*
 
 **Station:** New Delhi-8118 (U.S. Embassy Chanakyapuri, AirNow reference monitor) — OpenAQ location 8118, (28.63576, 77.22445), time zone Asia/Kolkata
 **Period:** 2018-01-01 to 2026-11-20

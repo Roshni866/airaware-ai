@@ -1,17 +1,22 @@
 {
-  "started_utc": "2026-11-24T08:23:23.984232+00:00",
-  "finished_utc": "2026-11-24T08:23:24.345044+00:00",
+  "started_utc": "2026-11-24T08:40:28.794998+00:00",
+  "finished_utc": "2026-11-24T08:41:17.672875+00:00",
   "success": true,
   "steps": [
     {
+      "step": "data_pipeline",
+      "ok": true,
+      "seconds": 47.803592
+    },
+    {
       "step": "features",
       "ok": true,
-      "seconds": 0.152564
+      "seconds": 0.099302
     },
     {
       "step": "predict",
       "ok": true,
-      "seconds": 0.208215
+      "seconds": 0.938532
     }
   ],
   "forecast_status": "stale_data",
