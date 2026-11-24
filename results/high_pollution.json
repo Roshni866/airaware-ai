@@ -1,0 +1,72 @@
+{
+  "threshold_ugm3": 120,
+  "secondary_threshold_ugm3": 250,
+  "n_test_days": 594,
+  "n_event_days": 112,
+  "point_forecast_rule": {
+    "tp": 105,
+    "fp": 28,
+    "fn": 7,
+    "tn": 454,
+    "precision": 0.7894736842105263,
+    "recall": 0.9375,
+    "f1": 0.8571428571428572,
+    "n_events": 112,
+    "false_alarms": 28,
+    "missed_events": 7
+  },
+  "precautionary_interval_rule": {
+    "tp": 111,
+    "fp": 133,
+    "fn": 1,
+    "tn": 349,
+    "precision": 0.45491803278688525,
+    "recall": 0.9910714285714286,
+    "f1": 0.6235955056179776,
+    "n_events": 112,
+    "false_alarms": 133,
+    "missed_events": 1
+  },
+  "mae_on_event_days": 36.456930076296416,
+  "mae_on_nonevent_days": 12.576970834080257,
+  "bias_on_event_days": -1.7434683941946927,
+  "severe_event_days": 23,
+  "severe_mae": 50.524368938227774,
+  "missed_event_dates": [
+    {
+      "target_date": "2025-02-10",
+      "y": 127.1,
+      "yhat": 117.7
+    },
+    {
+      "target_date": "2025-02-16",
+      "y": 145.8,
+      "yhat": 89.4
+    },
+    {
+      "target_date": "2025-04-28",
+      "y": 153.1,
+      "yhat": 90.3
+    },
+    {
+      "target_date": "2025-05-15",
+      "y": 211.0,
+      "yhat": 69.9
+    },
+    {
+      "target_date": "2025-10-19",
+      "y": 129.3,
+      "yhat": 101.7
+    },
+    {
+      "target_date": "2026-02-02",
+      "y": 137.4,
+      "yhat": 112.5
+    },
+    {
+      "target_date": "2026-02-10",
+      "y": 121.1,
+      "yhat": 118.8
+    }
+  ]
+}

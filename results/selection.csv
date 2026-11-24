@@ -1,0 +1,14 @@
+model,feature_set,params,val_mae,selected
+persistence,-,{},24.889376835994284,False
+linear,A,{},23.71384086160279,False
+rf,A,"{""max_depth"": 14, ""min_samples_leaf"": 5, ""max_features"": 0.33}",22.648748479879032,False
+xgb,A,"{""max_depth"": 3, ""learning_rate"": 0.03, ""n_estimators"": 200, ""min_child_weight"": 10}",23.284856799186876,False
+linear,B,{},22.96970567863954,False
+rf,B,"{""max_depth"": 8, ""min_samples_leaf"": 15, ""max_features"": 1.0}",22.31994128019052,False
+xgb,B,"{""max_depth"": 3, ""learning_rate"": 0.03, ""n_estimators"": 200, ""min_child_weight"": 10}",22.747090214338716,False
+linear,C,{},24.309666662625325,False
+rf,C,"{""max_depth"": 14, ""min_samples_leaf"": 5, ""max_features"": 0.33}",22.02683087882918,True
+xgb,C,"{""max_depth"": 5, ""learning_rate"": 0.03, ""n_estimators"": 200, ""min_child_weight"": 10}",22.609041810921294,False
+linear,C_oracle,{},23.683921863136042,False
+rf,C_oracle,"{""max_depth"": 14, ""min_samples_leaf"": 5, ""max_features"": 0.33}",21.45081526039044,False
+xgb,C_oracle,"{""max_depth"": 3, ""learning_rate"": 0.03, ""n_estimators"": 200, ""min_child_weight"": 10}",21.896392703885276,False

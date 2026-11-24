@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-11-24T08:23:23.984232+00:00",
+  "finished_utc": "2026-11-24T08:23:24.345044+00:00",
+  "success": true,
+  "steps": [
+    {
+      "step": "features",
+      "ok": true,
+      "seconds": 0.152564
+    },
+    {
+      "step": "predict",
+      "ok": true,
+      "seconds": 0.208215
+    }
+  ],
+  "forecast_status": "stale_data",
+  "forecast_reason": "Latest observation is 4 days old (threshold: 3).",
+  "origin_date": "2026-11-20",
+  "target_date": "2026-11-21",
+  "point_forecast": 187.8
+}

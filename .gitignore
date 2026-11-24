@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+data/raw/
+*.egg-info/
+.pytest_cache/
+
+# Secrets — never commit real API keys. Use secrets.toml.example as the template.
+.streamlit/secrets.toml
+.env
+

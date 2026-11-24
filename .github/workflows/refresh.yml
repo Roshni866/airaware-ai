@@ -1,0 +1,43 @@
+name: Daily data refresh and forecast
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # ~08:47 IST daily
+  workflow_dispatch: {}      # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run refresh pipeline
+        id: refresh
+        run: python -m src.refresh
+        continue-on-error: true   # commit whatever log/data we have even on failure
+
+      - name: Commit updated data and results
+        run: |
+          git config user.name "airaware-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/processed results/last_refresh.json results/refresh_log.jsonl results/data_quality.* results/split_summary.csv results/feature_sets.json
+          git diff --cached --quiet || git commit -m "Automated data refresh ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git push
+
+      - name: Fail the workflow if the refresh step failed
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo "::error::src.refresh exited non-zero — see the step log above and results/refresh_log.jsonl"
+          exit 1

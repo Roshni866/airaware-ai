@@ -1,0 +1,9 @@
+{
+  "point_estimate_mae_diff": 1.1556438576528798,
+  "ci95_low": 0.33722897989604167,
+  "ci95_high": 1.9636940585369471,
+  "n_boot": 2000,
+  "block_days": 14,
+  "note": "a-b MAE difference; positive means a is worse (higher error) than b",
+  "comparison": "persistence_minus_selected_model"
+}

@@ -1,0 +1,49 @@
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A4A47"/>
+      <stop offset="100%" stop-color="#247C72"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0B65A" stop-opacity="0.0"/>
+      <stop offset="100%" stop-color="#F0B65A" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="260" fill="url(#sky)"/>
+  <rect y="140" width="800" height="120" fill="url(#haze)"/>
+  <!-- distant skyline -->
+  <g fill="#0D2524" opacity="0.55">
+    <rect x="40" y="150" width="30" height="90"/>
+    <rect x="80" y="120" width="22" height="120"/>
+    <rect x="112" y="160" width="26" height="80"/>
+    <rect x="600" y="140" width="28" height="100"/>
+    <rect x="636" y="110" width="22" height="130"/>
+    <rect x="668" y="155" width="30" height="85"/>
+    <rect x="708" y="130" width="20" height="110"/>
+  </g>
+  <!-- foreground skyline -->
+  <g fill="#0A1E1D">
+    <rect x="150" y="100" width="34" height="160"/>
+    <rect x="190" y="70" width="26" height="190"/>
+    <rect x="222" y="130" width="40" height="130"/>
+    <rect x="268" y="90" width="22" height="170"/>
+    <rect x="296" y="150" width="30" height="110"/>
+    <rect x="470" y="110" width="30" height="150"/>
+    <rect x="506" y="80" width="24" height="180"/>
+    <rect x="536" y="140" width="38" height="120"/>
+    <rect x="580" y="100" width="20" height="160"/>
+  </g>
+  <!-- windows -->
+  <g fill="#F0B65A" opacity="0.65">
+    <rect x="196" y="90" width="4" height="4"/>
+    <rect x="206" y="90" width="4" height="4"/>
+    <rect x="196" y="110" width="4" height="4"/>
+    <rect x="276" y="110" width="4" height="4"/>
+    <rect x="513" y="100" width="4" height="4"/>
+    <rect x="513" y="120" width="4" height="4"/>
+    <rect x="586" y="120" width="4" height="4"/>
+  </g>
+  <!-- soft clean-air swirl -->
+  <path d="M60 60 C 200 10, 350 10, 420 55 S 650 90, 740 50" stroke="#B9DED5" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M30 90 C 180 45, 330 45, 400 85 S 620 115, 760 80" stroke="#EAF3F1" stroke-width="2" fill="none" opacity="0.3" stroke-linecap="round"/>
+</svg>

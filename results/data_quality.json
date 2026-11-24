@@ -1,0 +1,163 @@
+{
+  "station": {
+    "openaq_location_id": 8118,
+    "name": "New Delhi-8118 (U.S. Embassy Chanakyapuri, AirNow reference monitor)",
+    "city": "New Delhi",
+    "country": "India",
+    "latitude": 28.63576,
+    "longitude": 77.22445,
+    "timezone": "Asia/Kolkata",
+    "parameter": "pm25"
+  },
+  "retrieved_utc": "2026-11-24 07:10 UTC",
+  "period": [
+    "2018-01-01",
+    "2026-11-20"
+  ],
+  "hourly": {
+    "raw_rows": 71503,
+    "rows_pm25": 71503,
+    "units_found": [
+      "\u00b5g/m\u00b3"
+    ],
+    "sensor_ids": [
+      23534
+    ],
+    "location_names": [
+      "New Delhi-8118",
+      "US Diplomatic Post: New Delhi-8118"
+    ],
+    "rows_bad_units_dropped": 0,
+    "rows_off_hour_timestamp_dropped": 2535,
+    "off_hour_dates": [
+      "2023-07-13",
+      "2023-11-03"
+    ],
+    "rows_invalid_value_dropped": 4549,
+    "invalid_value_examples": {
+      "-999.0": 4147,
+      "1985.0": 273,
+      "-8.0": 25,
+      "-9.0": 14,
+      "-6.0": 12
+    },
+    "rows_exact_duplicate_dropped": 0,
+    "timestamps_with_conflicting_values_averaged": 0,
+    "clean_hourly_rows": 64419
+  },
+  "daily": {
+    "calendar_days": 3246,
+    "observed_days": 2604,
+    "missing_days": 642,
+    "coverage_pct": 80.22,
+    "min_hours_rule": 18,
+    "days_dropped_for_incomplete_hours": 328,
+    "number_of_gaps": 180,
+    "longest_gaps": [
+      {
+        "start": "2022-05-10",
+        "days": 135
+      },
+      {
+        "start": "2019-02-11",
+        "days": 37
+      },
+      {
+        "start": "2023-02-16",
+        "days": 26
+      },
+      {
+        "start": "2024-04-10",
+        "days": 17
+      },
+      {
+        "start": "2024-03-23",
+        "days": 17
+      }
+    ],
+    "last_observed_day": "2026-11-20",
+    "pm25_summary": {
+      "count": 2604.0,
+      "mean": 101.36,
+      "std": 82.71,
+      "min": 6.42,
+      "25%": 39.66,
+      "50%": 72.57,
+      "75%": 141.23,
+      "max": 650.57
+    }
+  },
+  "per_year": [
+    {
+      "year": 2018,
+      "days": 365,
+      "observed_days": 277,
+      "mean_pm25": 110.22,
+      "coverage_pct": 75.9
+    },
+    {
+      "year": 2019,
+      "days": 365,
+      "observed_days": 303,
+      "mean_pm25": 106.45,
+      "coverage_pct": 83.0
+    },
+    {
+      "year": 2020,
+      "days": 366,
+      "observed_days": 328,
+      "mean_pm25": 92.22,
+      "coverage_pct": 89.6
+    },
+    {
+      "year": 2021,
+      "days": 365,
+      "observed_days": 295,
+      "mean_pm25": 108.3,
+      "coverage_pct": 80.8
+    },
+    {
+      "year": 2022,
+      "days": 365,
+      "observed_days": 209,
+      "mean_pm25": 122.99,
+      "coverage_pct": 57.3
+    },
+    {
+      "year": 2023,
+      "days": 365,
+      "observed_days": 268,
+      "mean_pm25": 104.33,
+      "coverage_pct": 73.4
+    },
+    {
+      "year": 2024,
+      "days": 366,
+      "observed_days": 286,
+      "mean_pm25": 109.64,
+      "coverage_pct": 78.1
+    },
+    {
+      "year": 2025,
+      "days": 365,
+      "observed_days": 348,
+      "mean_pm25": 88.66,
+      "coverage_pct": 95.3
+    },
+    {
+      "year": 2026,
+      "days": 324,
+      "observed_days": 290,
+      "mean_pm25": 79.63,
+      "coverage_pct": 89.5
+    }
+  ],
+  "weather_missing_days": {
+    "temp_mean": 0,
+    "rh_mean": 0,
+    "wind_speed_mean": 0,
+    "wind_u_mean": 0,
+    "wind_v_mean": 0,
+    "precip_sum": 0
+  }
+}

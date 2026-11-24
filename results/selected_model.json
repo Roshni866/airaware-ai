@@ -1,0 +1,11 @@
+{
+  "model": "rf",
+  "feature_set": "C",
+  "val_mae": 22.02683087882918,
+  "params": {
+    "max_depth": 14,
+    "min_samples_leaf": 5,
+    "max_features": 0.33
+  },
+  "rule": "lowest validation MAE among feature sets A-C"
+}
