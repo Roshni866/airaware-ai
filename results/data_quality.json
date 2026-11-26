@@ -9,14 +9,14 @@
     "timezone": "Asia/Kolkata",
     "parameter": "pm25"
   },
-  "retrieved_utc": "2026-11-24 08:41 UTC",
+  "retrieved_utc": "2026-11-26 12:29 UTC",
   "period": [
     "2018-01-01",
-    "2026-11-20"
+    "2026-11-22"
   ],
   "hourly": {
-    "raw_rows": 71503,
-    "rows_pm25": 71503,
+    "raw_rows": 71551,
+    "rows_pm25": 71551,
     "units_found": [
       "\u00b5g/m\u00b3"
     ],
@@ -43,13 +43,13 @@
     },
     "rows_exact_duplicate_dropped": 0,
     "timestamps_with_conflicting_values_averaged": 0,
-    "clean_hourly_rows": 64419
+    "clean_hourly_rows": 64467
   },
   "daily": {
-    "calendar_days": 3246,
-    "observed_days": 2604,
+    "calendar_days": 3248,
+    "observed_days": 2606,
     "missing_days": 642,
-    "coverage_pct": 80.22,
+    "coverage_pct": 80.23,
     "min_hours_rule": 18,
     "days_dropped_for_incomplete_hours": 328,
     "number_of_gaps": 180,
@@ -75,15 +75,15 @@
         "days": 17
       }
     ],
-    "last_observed_day": "2026-11-20",
+    "last_observed_day": "2026-11-22",
     "pm25_summary": {
-      "count": 2604.0,
-      "mean": 101.36,
-      "std": 82.71,
+      "count": 2606.0,
+      "mean": 101.39,
+      "std": 82.69,
       "min": 6.42,
-      "25%": 39.66,
-      "50%": 72.57,
-      "75%": 141.23,
+      "25%": 39.67,
+      "50%": 72.64,
+      "75%": 141.58,
       "max": 650.57
     }
   },
@@ -146,10 +146,10 @@
     },
     {
       "year": 2026,
-      "days": 324,
-      "observed_days": 290,
-      "mean_pm25": 79.63,
-      "coverage_pct": 89.5
+      "days": 326,
+      "observed_days": 292,
+      "mean_pm25": 80.07,
+      "coverage_pct": 89.6
     }
   ],
   "weather_missing_days": {

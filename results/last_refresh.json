@@ -1,27 +1,27 @@
 {
-  "started_utc": "2026-11-24T08:40:28.794998+00:00",
-  "finished_utc": "2026-11-24T08:41:17.672875+00:00",
+  "started_utc": "2026-11-26T12:29:32.160749+00:00",
+  "finished_utc": "2026-11-26T12:29:59.988658+00:00",
   "success": true,
   "steps": [
     {
       "step": "data_pipeline",
       "ok": true,
-      "seconds": 47.803592
+      "seconds": 26.47628
     },
     {
       "step": "features",
       "ok": true,
-      "seconds": 0.099302
+      "seconds": 0.105986
     },
     {
       "step": "predict",
       "ok": true,
-      "seconds": 0.938532
+      "seconds": 1.205315
     }
   ],
   "forecast_status": "stale_data",
   "forecast_reason": "Latest observation is 4 days old (threshold: 3).",
-  "origin_date": "2026-11-20",
-  "target_date": "2026-11-21",
-  "point_forecast": 187.8
+  "origin_date": "2026-11-22",
+  "target_date": "2026-11-23",
+  "point_forecast": 176.8
 }
