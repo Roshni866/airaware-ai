@@ -1,16 +1,16 @@
 # Data-quality report
 
-*Generated 2026-11-27 12:15 UTC by `src/data_pipeline.py`.*
+*Generated 2026-11-28 11:43 UTC by `src/data_pipeline.py`.*
 
 **Station:** New Delhi-8118 (U.S. Embassy Chanakyapuri, AirNow reference monitor) — OpenAQ location 8118, (28.63576, 77.22445), time zone Asia/Kolkata
-**Period:** 2018-01-01 to 2026-11-23
+**Period:** 2018-01-01 to 2026-11-24
 
 ## Hourly validation
 
 | Check | Count |
 |---|---:|
-| Raw archive rows | 71,575 |
-| PM2.5 rows | 71,575 |
+| Raw archive rows | 71,598 |
+| PM2.5 rows | 71,598 |
 | Units found | µg/m³ |
 | Sensor IDs | 23534 |
 | Dropped: unexpected units | 0 |
@@ -18,7 +18,7 @@
 | Dropped: invalid value (-999 sentinel, repeated 1985 error value, other <0 or >999) | 4,549 |
 | Dropped: exact duplicate timestamp+value | 0 |
 | Timestamps with conflicting duplicates (averaged) | 0 |
-| Clean hourly observations | 64,491 |
+| Clean hourly observations | 64,514 |
 
 ## Daily coverage
 
@@ -26,12 +26,12 @@ Daily mean computed over the local (IST) day; requires ≥ 18 of 24 valid hours.
 
 | Metric | Value |
 |---|---:|
-| Calendar days | 3,249 |
-| Observed days | 2,607 (80.24%) |
+| Calendar days | 3,250 |
+| Observed days | 2,608 (80.25%) |
 | Missing days | 642 |
 | …of which had some hours but < 18 | 328 |
 | Number of gaps | 180 |
-| Last observed day | 2026-11-23 |
+| Last observed day | 2026-11-24 |
 
 Longest gaps: 2022-05-10 (135 d); 2019-02-11 (37 d); 2023-02-16 (26 d); 2024-04-10 (17 d); 2024-03-23 (17 d)
 
@@ -45,7 +45,7 @@ Longest gaps: 2022-05-10 (135 d); 2019-02-11 (37 d); 2023-02-16 (26 d); 2024-04-
 | 2023 | 365 | 268 | 73.4 | 104.3 |
 | 2024 | 366 | 286 | 78.1 | 109.6 |
 | 2025 | 365 | 348 | 95.3 | 88.7 |
-| 2026 | 327 | 293 | 89.6 | 80.4 |
+| 2026 | 328 | 294 | 89.6 | 80.6 |
 
 ## Missing-data policy
 

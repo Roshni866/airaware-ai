@@ -9,14 +9,14 @@
     "timezone": "Asia/Kolkata",
     "parameter": "pm25"
   },
-  "retrieved_utc": "2026-11-27 12:15 UTC",
+  "retrieved_utc": "2026-11-28 11:43 UTC",
   "period": [
     "2018-01-01",
-    "2026-11-23"
+    "2026-11-24"
   ],
   "hourly": {
-    "raw_rows": 71575,
-    "rows_pm25": 71575,
+    "raw_rows": 71598,
+    "rows_pm25": 71598,
     "units_found": [
       "\u00b5g/m\u00b3"
     ],
@@ -43,13 +43,13 @@
     },
     "rows_exact_duplicate_dropped": 0,
     "timestamps_with_conflicting_values_averaged": 0,
-    "clean_hourly_rows": 64491
+    "clean_hourly_rows": 64514
   },
   "daily": {
-    "calendar_days": 3249,
-    "observed_days": 2607,
+    "calendar_days": 3250,
+    "observed_days": 2608,
     "missing_days": 642,
-    "coverage_pct": 80.24,
+    "coverage_pct": 80.25,
     "min_hours_rule": 18,
     "days_dropped_for_incomplete_hours": 328,
     "number_of_gaps": 180,
@@ -75,15 +75,15 @@
         "days": 17
       }
     ],
-    "last_observed_day": "2026-11-23",
+    "last_observed_day": "2026-11-24",
     "pm25_summary": {
-      "count": 2607.0,
-      "mean": 101.43,
-      "std": 82.69,
+      "count": 2608.0,
+      "mean": 101.44,
+      "std": 82.68,
       "min": 6.42,
       "25%": 39.67,
-      "50%": 72.68,
-      "75%": 141.75,
+      "50%": 72.72,
+      "75%": 141.69,
       "max": 650.57
     }
   },
@@ -146,9 +146,9 @@
     },
     {
       "year": 2026,
-      "days": 327,
-      "observed_days": 293,
-      "mean_pm25": 80.42,
+      "days": 328,
+      "observed_days": 294,
+      "mean_pm25": 80.62,
       "coverage_pct": 89.6
     }
   ],
